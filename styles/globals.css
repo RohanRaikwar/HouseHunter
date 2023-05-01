@@ -1,0 +1,33 @@
+@font-face {
+    font-family: sen;
+    src: url(./Sen-Regular.woff2);
+  }
+  html{
+   box-sizing: border-box;
+  }
+
+
+body{
+    margin: 0px;
+    font-family: sen;
+    max-width: 1440px;
+    box-sizing: border-box;
+    
+ }
+ 
+ a{
+    text-decoration: none;
+    list-style:  none;
+
+ }
+
+ li{
+    list-style: none;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+   margin: 0px;
+   padding: 0px;
+ }
+ textarea{
+   resize: none;
+ }

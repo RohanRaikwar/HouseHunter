@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Inter;
+    src: url(../styles//Inter-Regular.woff2);
+}
+@font-face {
+    font-family: Sen;
+    src: url(../styles//Sen-Regular.woff2);
+}
+.main{
+    max-width: 1440px;
+    width: 84.34rem;
+}
+
+.head{
+    width: 84.34rem;
+    background: #F4F0F8;
+    text-align: center;
+
+    height: 210px;
+    padding-top: 80px;
+    
+}
+.head h1{
+    font-family: Sen;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -2px;
+
+/* Black */
+
+color: #232536;
+}
+.head h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+text-align: center;
+
+/* Black */
+
+color: #232536;
+margin-top: 4px;
+opacity: 0.6;
+}
+
+.privacy_desc{
+    padding: 120px 290px;
+    text-align: start;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy_desc .pehla{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+
+letter-spacing: -2px;
+
+
+color: #232536;
+}
+
+.privacy_desc h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #4C4C4C;
+}
+.dusra{font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+    
+    letter-spacing: -2px;
+    
+    /* Black */
+    
+    color: #232536;
+    
+
+}
+@media screen and (max-width:450px) {
+    .main{
+        max-width: 1440px;
+        width: 44.34rem;
+    }
+    .head{
+        width: 44.34rem;
+        background: #F4F0F8;
+        text-align: center;
+    
+        height: 210px;
+        padding-top: 80px;
+        
+    }
+    .privacy_desc{
+        margin: auto;
+        width: 38rem;
+        /* padding: 120px 290px; */
+        height: 82rem;
+        text-align: start;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding:50px 0px 0px 0px;
+    }
+    
+}

@@ -1,0 +1,316 @@
+.main{
+box-sizing: border-box;
+max-width: 1440px;
+width:  84.34rem;
+position: relative;
+
+}
+
+.auther_cont{
+    width: 84.34rem;
+    box-sizing: border-box;
+    height: 550px;
+    position: relative;
+    background: #F4F0F8;
+
+
+}
+.auther_cont .rap .hero{
+    color: transparent;
+    width: 251px;
+    height: 294px;
+    object-fit: cover;
+}
+.rap{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    gap: 16px;
+    margin: auto;
+    width: 54.34rem;
+    position: relative;
+}
+.auth_desc h1{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+width: 669px;
+height: 128px;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+letter-spacing: -2px;
+
+/* Black */
+
+color: #232536;
+}
+
+.auth_desc{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.auth_desc h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+display: flex;
+align-items: center;
+
+/* Medium grey */
+
+color: #6D6E76;
+}
+
+
+.auth_desc div img{
+    width: 16px;
+    height: 16px;
+}
+.icon_cont{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+
+.icon_cont img{
+    width: 16px;
+    height: 16px;
+
+}
+.style{
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+height: 24px;
+position: absolute;
+left: 198px;
+
+bottom: 0px;
+
+}
+.style .left{
+    width: 813.69px;
+height: 24px;
+background: #FFD050;
+
+}
+.style .right{
+    width: 271.93px;
+height: 24px;
+background: #592EA9;
+}
+.post_cons .start_line{
+    font-family: 'Sen';
+    margin-top: 110px;
+font-style: normal;
+margin-bottom: 40px;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+letter-spacing: -2px;
+
+/* Black */
+
+color: #232536;
+
+
+
+}
+
+.post_cont{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 40px;
+    width: 68rem;
+}
+
+.post_cont .post_desc h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    /* Purple */
+    
+    color: #592EA9;
+
+}
+
+.post_cont .post_desc h2{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 32px;
+line-height: 48px;
+width: 560.38px;
+height: 96px;
+
+letter-spacing: -2px;
+
+
+color: #232536;
+
+}
+
+.post_cont .post_desc h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+width: 580px;
+height: 56px;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Medium grey */
+
+color: #6D6E76;
+
+}
+.post_cons{
+    width: 59.3125rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.image1{
+    width: 427px;
+    height: 320px;
+    object-fit: cover;
+}
+.image2{
+    width: 427px;
+    height: 320px;
+    object-fit: contain;
+
+
+
+}
+.post_desc{
+    padding-top: 55px;
+}
+@media screen and (max-width:450px){
+    .main{
+        box-sizing: border-box;
+        max-width: 1440px;
+        width:  44.34rem;
+        position: relative;
+        
+        }
+        .auther_cont{
+            width: 44.34rem;
+            box-sizing: border-box;
+            height: 834px;
+            position: relative;
+            background: #F4F0F8;
+        
+        }   
+        .rap{
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            gap: 16px;
+            margin: auto;
+            width: 38.34rem;
+            position: relative;
+        }
+        .auther_cont .rap .hero{
+            color: transparent;
+            width: 613px;
+            height: 381px;
+            object-fit: cover;
+        }
+        .auth_desc h1{
+            font-family: 'Sen';
+            font-style: normal;
+            font-weight: 700;
+            width: 605px;
+            height: 128px;
+            font-size: 44px;
+            line-height: 64px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -2px;
+            color: #232536;
+        }
+        .auth_desc{
+            display: flex;
+            width: 40rem;
+            flex-direction: column;
+            gap: 24px;
+            
+        }
+        .style{
+            display: flex;
+            flex-direction: row;
+            width: 32rem;
+            height: 17px;
+            position: absolute;
+            left: 198px;
+            bottom: 7px;
+        
+        }
+        .post_cons{
+            width: 32.3125rem;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .post_cont{
+            display: flex;
+            flex-direction: column;
+            width: 99px;
+            gap: 32px;
+            margin-bottom: 40px;
+            width: 36rem;
+        }
+        .image1{
+            width: 526px;
+            height: 365px;
+            object-fit: cover;
+        }
+        .post_cont .post_desc h3{
+            font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    width: 529px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+        
+        }
+        .image2{
+            width: 519px;
+            height: 368px;
+            object-fit: contain;
+        
+        
+        
+        }
+      
+
+    
+}
